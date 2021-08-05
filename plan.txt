@@ -1,0 +1,22 @@
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1mQuoted keywords are deprecated[0m
+[33m│[0m [0m
+[33m│[0m [0m[0m  on .terraform/modules/nat.nat-gateway/main.tf line 104, in resource "google_compute_instance_group_manager" "default":
+[33m│[0m [0m 104:     when    = [4m"destroy"[0m[0m
+[33m│[0m [0m
+[33m│[0m [0mIn this context, keywords are expected literally rather than in quotes. Terraform 0.11 and earlier required quotes, but quoted keywords are now deprecated and
+[33m│[0m [0mwill be removed in a future version of Terraform. Remove the quotes surrounding this keyword to silence this warning.
+[33m│[0m [0m
+[33m│[0m [0m(and 3 more similar warnings elsewhere)
+[33m╵[0m[0m
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1mQuoted references are deprecated[0m
+[33m│[0m [0m
+[33m│[0m [0m[0m  on .terraform/modules/nat.nat-gateway/main.tf line 215, in resource "null_resource" "dummy_dependency":
+[33m│[0m [0m 215:   depends_on = [[4m"google_compute_instance_group_manager.default"[0m][0m
+[33m│[0m [0m
+[33m│[0m [0mIn this context, references are expected literally rather than in quotes. Terraform 0.11 and earlier required quotes, but quoted references are now deprecated and
+[33m│[0m [0mwill be removed in a future version of Terraform. Remove the quotes surrounding this reference to silence this warning.
+[33m│[0m [0m
+[33m│[0m [0m(and one more similar warning elsewhere)
+[33m╵[0m[0m
